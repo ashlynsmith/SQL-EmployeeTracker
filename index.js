@@ -1,7 +1,7 @@
-import inquirer from 'inquirer';
-import { viewAllEmployees, addEmployee, updateEmployeeRole } from './lib/employee.js';
-import { viewAllDepartments, addDepartment } from './lib/department.js';
-import { viewAllRoles, addRole } from './lib/role.js';
+const  inquirer = require ('inquirer');
+const  { viewAllEmployees, addEmployee, updateEmployeeRole } = require ('./lib/employee.js');
+const  { viewAllDepartments, addDepartment } = require ('./lib/department.js');
+const  { viewAllRoles, addRole } = require ('./lib/role.js');
 
 const userActions = {
   'View all departments': () => viewAllDepartments(),
